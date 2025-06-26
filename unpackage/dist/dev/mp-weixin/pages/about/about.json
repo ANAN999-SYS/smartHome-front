@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "pyh-nv": "/uni_modules/pyh-nv/components/pyh-nv/pyh-nv"
+  }
+}

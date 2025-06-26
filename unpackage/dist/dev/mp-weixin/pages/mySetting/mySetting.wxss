@@ -1,0 +1,38 @@
+
+.avatar-wrapper {
+	padding: 0;
+	width: 200rpx !important;
+	border-radius: 8px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	background-color: #fff;
+}
+.avatar {
+	display: block;
+	width: 200rpx;
+	height: 200rpx;
+}
+.container {
+	display: flex;
+}
+.row {
+	border-top: 1px solid rgb(204, 204, 204);
+	border-bottom: 1px solid #ccc;
+	display: flex;
+	align-items: center;
+	height: 80rpx;
+	padding-left: 20rpx;
+}
+.text1 {
+	flex: 2;
+}
+.weui-input {
+	flex: 6;
+}
+.btn{
+	background: #409eff !important;
+	margin-top: 80rpx;
+	margin-bottom: 20rpx;
+	width: 320rpx
+}
+

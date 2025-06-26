@@ -1,0 +1,205 @@
+
+{
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/remoteControl/remoteControl",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/scenarioMode/scenarioMode",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/mySetting/mySetting",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/feedback/feedback",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/help/help",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/feedbackRecord/feedbackRecord",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/about/about",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/roomSet/roomSet",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/deviceSet/deviceSet",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/scenarioSet/scenarioSet",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/chooseDevice/chooseDevice",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/scenarioEdit/scenarioEdit",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/switchCtrl/switchCtrl",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/bafaLogin/bafaLogin",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/bafaDevices/bafaDevices",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/bafaAddDevices/bafaAddDevices",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		}
+
+	],
+	"tabBar": {
+		"borderStyle": "white",
+		"color": "#999",
+		"selectedColor": "#11aa66",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "智能监测",
+				"iconPath": "/static/images/chart.png",
+				"selectedIconPath": "/static/images/chart_select.png"
+			},
+			{
+				"pagePath": "pages/remoteControl/remoteControl",
+				"text": "远程控制",
+				"iconPath": "/static/images/ctrl.png",
+				"selectedIconPath": "/static/images/ctrl_select .png"
+			},
+			{
+				"pagePath": "pages/scenarioMode/scenarioMode",
+				"text": "情景模式",
+				"iconPath": "/static/images/scene.png",
+				"selectedIconPath": "/static/images/scene_select.png"
+			},
+			{
+				"pagePath": "pages/mine/mine",
+				"text": "个人中心",
+				"iconPath": "/static/images/user.png",
+				"selectedIconPath": "/static/images/user_select.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationStyle": "custom",
+		"usingComponents": {
+			"t-notice-bar": "wxcomponents/tdesign/notice-bar/notice-bar",
+			"t-button": "wxcomponents/tdesign/button/button",
+			"t-grid": "wxcomponents/tdesign/grid/grid",
+			"t-grid-item": "wxcomponents/tdesign/grid-item/grid-item",
+			"t-icon": "wxcomponents/tdesign/icon/icon",
+			"t-input": "wxcomponents/tdesign/input/input",
+			"t-avatar": "wxcomponents/tdesign/avatar/avatar",
+			"t-upload": "wxcomponents/tdesign/upload/upload",
+			"t-textarea": "wxcomponents/tdesign/textarea/textarea",
+			"t-cell-group": "wxcomponents/tdesign/cell-group/cell-group",
+			"t-cell": "wxcomponents/tdesign/cell/cell",
+			"t-popup": "wxcomponents/tdesign/popup/popup",
+			"t-tabs": "wxcomponents/tdesign/tabs/tabs",
+			"t-tab-panel": "wxcomponents/tdesign/tab-panel/tab-panel",
+			"t-fab": "wxcomponents/tdesign/fab/fab",
+			"t-swipe-cell": "wxcomponents/tdesign/swipe-cell/swipe-cell",
+			"t-picker": "wxcomponents/tdesign/picker/picker",
+			"t-picker-item": "wxcomponents/tdesign/picker-item/picker-item",
+			"t-switch": "wxcomponents/tdesign/switch/switch",
+			"t-checkbox-group": "wxcomponents/tdesign/checkbox-group/checkbox-group",
+			"t-checkbox": "wxcomponents/tdesign/checkbox/checkbox",
+			"t-dialog": "wxcomponents/tdesign/dialog/dialog",
+			"t-image-viewer": "wxcomponents/tdesign/image-viewer/image-viewer"
+		}
+
+	},
+	"uniIdRouter": {}
+}

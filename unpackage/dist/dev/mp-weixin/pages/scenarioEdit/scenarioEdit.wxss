@@ -1,0 +1,108 @@
+
+page {
+	background: #f6f6f6;
+}
+.HeaderBox {
+	margin: 20rpx 20rpx;
+}
+.cellBox {
+	padding-top: 20rpx !important;
+	padding-bottom: 20rpx !important;
+}
+.cellImg {
+	width: 88rpx;
+	height: 88rpx;
+}
+.deviceBox {
+	margin: 20rpx 20rpx;
+}
+.deviceTitle {
+	font-size: 28rpx;
+	margin-bottom: 10rpx;
+	padding-left: 2rpx;
+}
+.addCard {
+	height: 100rpx;
+	background: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.devBlock {
+	/*background: #fff;*/
+	color: #333;
+	align-items: center;
+	justify-content: center;
+}
+.devWrapper {
+	margin: 32rpx;
+	display: block;
+}
+.devHeader {
+	display: flex;
+	align-items: center;
+	height: 116rpx;
+}
+.devTitle {
+	flex: 1;
+	text-align: center;
+	font-weight: 600;
+	font-size: 36rpx;
+}
+.container {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+}
+.columnIcon {
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.columnImg {
+	width: 96rpx;
+	height: 96rpx;
+}
+.block {
+	width: 80vw;
+	height: 240px;
+	background: #fff;
+	border-radius: 16rpx;
+	position: relative;
+}
+.popHeard {
+	text-align: center;
+	font-size: 36rpx;
+	margin-top: 20rpx;
+}
+.inputBox {
+	height: 60%;
+	display: flex;
+	align-items: center;
+	margin-left: 20rpx;
+	margin-right: 20rpx;
+}
+.btnBox {
+	position: absolute;
+	bottom: 10rpx;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+.cardBoxbtn {
+	background: #00aaff !important;
+	--td-button-primary-border-color: #00aaff;
+}
+.btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 120rpx;
+  height: 100%;
+  color: white;
+}
+.delete-btn {
+  background-color: #e34d59;
+}
+
+

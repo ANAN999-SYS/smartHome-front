@@ -1,0 +1,29 @@
+
+page {
+	background: #f6f6f6;
+}
+.cardBox {
+	background-color: white;
+	margin: 20rpx;
+	padding: 20rpx;
+	border-radius: 16rpx;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+.imgBox {
+	border-top: 1px solid #e2e2e2;
+	border-bottom: 1px solid #e2e2e2;
+}
+.img{
+}
+.btnBox {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.cardBoxbtn {
+	background: #00aaff !important;
+	--td-button-primary-border-color: #00aaff;
+	margin-top: 20rpx;
+	margin-bottom: 20rpx;
+}
+

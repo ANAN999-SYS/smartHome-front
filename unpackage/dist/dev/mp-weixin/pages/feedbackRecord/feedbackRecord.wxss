@@ -1,0 +1,65 @@
+
+page {
+	background: #f6f6f6;
+}
+.noneCard {
+	margin: 20rpx;
+	height: 300rpx;
+	background: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 16rpx;
+}
+.noneTitle {
+	font-size: 32rpx;
+	font-weight: 500;
+}
+.feedbackList {
+	margin: 0 20rpx 0 20rpx;
+}
+.cellTitle {
+	font-size: 26rpx !important;
+}
+.image {
+	width: 116rpx;
+	height: 116rpx;
+}
+.cellNote {
+	min-width: 54rpx !important;
+	color: #11aa66 !important;
+}
+.cellNote1 {
+	min-width: 54rpx !important;
+	color: #f1c083 !important;
+}
+.cellTip {
+	width: 220px !important;
+	white-space: nowrap !important;
+	overflow: hidden !important;
+	text-overflow: ellipsis !important;
+}
+.feedbackCard {
+	margin-top: 20rpx;
+}
+.de_block {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 400px;
+	min-height: 120px;
+	background: #fff;
+	border-radius: 16rpx;
+}
+.deId_box {}
+.deId_text {
+	margin-bottom: 20rpx;
+	width: 340px
+}
+.deId_Tip {
+	margin-top: 30rpx;
+	margin-bottom: 30rpx;
+	text-align: center;
+}
+
