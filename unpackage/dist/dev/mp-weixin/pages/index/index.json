@@ -1,7 +1,0 @@
-{
-  "navigationBarTitleText": "uni-app",
-  "usingComponents": {
-    "pyh-nv": "/uni_modules/pyh-nv/components/pyh-nv/pyh-nv",
-    "uni-ec-canvas": "/components/uni-ec-canvas/uni-ec-canvas"
-  }
-}
